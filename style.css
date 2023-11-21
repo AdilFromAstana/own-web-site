@@ -249,3 +249,21 @@ body {
 .card-group > .little-card:nth-child(7) {
     animation: rotateLittleCard7 4s infinite;
 }
+
+@media (max-width: 768px) {
+    .wrapper {
+        width: 100vw;
+        padding: 0 24px;
+        gap: 15vh 0;
+        flex-direction: column;
+    }
+
+    .text-wrapper {
+        margin-top: 1rem;
+        width: 100%;
+    }
+
+    .typing {
+        font-size: 2rem;
+    }
+}
